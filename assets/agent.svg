@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650" role="img">
+<title>Agent：行动—观察闭环</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">Agent：行动—观察闭环</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">参数通常不在每轮更新；改变的是上下文、环境与下一步决策。</text>
+<rect x="45" y="220" width="300" height="145" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="261" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">模型策略</text>
+<text x="59" y="301" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">读取目标与观察</text>
+<text x="59" y="335" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">生成动作或回答</text>
+<rect x="480" y="220" width="310" height="145" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="494" y="261" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">执行器</text>
+<text x="494" y="301" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">验证参数与权限</text>
+<text x="494" y="335" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">实际调用工具</text>
+<rect x="965" y="220" width="420" height="145" rx="14" fill="#fff2d6" stroke="#69829a" stroke-width="2"/>
+<text x="979" y="261" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">外部环境</text>
+<text x="979" y="301" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">文件、程序、网页或设备</text>
+<text x="979" y="335" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">动作造成实际结果</text>
+<polyline points="345,290 480,290" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="480,290 468.5914266954251,296.2325320018546 468.5914266954251,283.7674679981454" fill="#69829a"/>
+<polyline points="790,290 965,290" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="965,290 953.5914266954252,296.2325320018546 953.5914266954252,283.7674679981454" fill="#69829a"/>
+<polyline points="1175,365 1175,490 195,490 195,365" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="195,365 201.23253200185465,376.4085733045749 188.76746799814535,376.4085733045748" fill="#69829a"/>
+<text x="610" y="472" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#4f6375">结果与新观察</text>
+<text x="45" y="588" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">说“已经完成”是文本；环境最终状态与独立验证才提供完成证据。</text>
+</svg>

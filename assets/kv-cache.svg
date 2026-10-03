@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650" role="img">
+<title>KV Cache：复用固定前缀的计算</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">KV Cache：复用固定前缀的计算</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">每一层拥有自己的缓存；新 token 只产生该位置的新 Q/K/V。</text>
+<rect x="45" y="190" width="290" height="140" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="231" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">已有前缀</text>
+<text x="59" y="271" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">位置 1 … n</text>
+<text x="59" y="305" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">先进行 prefill</text>
+<rect x="440" y="190" width="410" height="140" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="454" y="231" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">各层 K/V 缓存</text>
+<text x="454" y="271" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">K1…Kn　V1…Vn</text>
+<text x="454" y="305" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">历史位置无需重复投影</text>
+<rect x="1030" y="190" width="360" height="140" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="1044" y="231" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">新 token 的 Q</text>
+<text x="1044" y="271" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">与所有可见 K 匹配</text>
+<text x="1044" y="305" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">按权重汇总 V</text>
+<polyline points="335,260 440,260" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="440,260 428.5914266954251,266.2325320018546 428.5914266954251,253.76746799814535" fill="#69829a"/>
+<polyline points="850,260 1030,260" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1030,260 1018.5914266954252,266.2325320018546 1018.5914266954252,253.76746799814535" fill="#69829a"/>
+<rect x="1030" y="405" width="360" height="120" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="1044" y="446" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">新 K、V</text>
+<text x="1044" y="486" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">追加到对应层缓存</text>
+<polyline points="1210,330 1210,405" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1210,405 1203.7674679981453,393.5914266954252 1216.2325320018547,393.5914266954251" fill="#69829a"/>
+<polyline points="1030,465 645,465 645,330" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="645,330 651.2325320018547,341.4085733045749 638.7674679981453,341.4085733045748" fill="#69829a"/>
+<text x="45" y="583" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">缓存减少重复计算，但新查询仍需读取历史；缓存长度增加仍有成本。</text>
+</svg>

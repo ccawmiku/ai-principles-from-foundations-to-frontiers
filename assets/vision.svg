@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" role="img">
+<title>视觉表示：像素 → 图像块 → 特征</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">视觉表示：像素 → 图像块 → 特征</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">教学尺寸：224 × 224 的 RGB 图像，使用 16 × 16 图像块。</text>
+<rect x="45" y="210" width="254" height="170" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">像素数组</text>
+<text x="59" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">224 × 224 × 3</text>
+<text x="59" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">空间排列有意义</text>
+<rect x="334" y="210" width="254" height="170" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="348" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">切为图像块</text>
+<text x="348" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">14 × 14 = 196 块</text>
+<text x="348" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">每块 768 个数</text>
+<polyline points="299,295 334,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="334,295 322.5914266954251,301.2325320018546 322.5914266954251,288.7674679981454" fill="#69829a"/>
+<rect x="623" y="210" width="254" height="170" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="637" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">线性映射</text>
+<text x="637" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">196 × d</text>
+<text x="637" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">加入位置信息</text>
+<polyline points="588,295 623,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="623,295 611.5914266954252,301.2325320018546 611.5914266954252,288.7674679981454" fill="#69829a"/>
+<rect x="912" y="210" width="254" height="170" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="926" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">视觉主干</text>
+<text x="926" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">块之间交换信息</text>
+<text x="926" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">输出视觉表示</text>
+<polyline points="877,295 912,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="912,295 900.5914266954252,301.2325320018546 900.5914266954252,288.7674679981454" fill="#69829a"/>
+<rect x="1201" y="210" width="254" height="170" rx="14" fill="#e7f4ed" stroke="#69829a" stroke-width="2"/>
+<text x="1215" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">任务输出</text>
+<text x="1215" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">分类 / 区域特征</text>
+<text x="1215" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">分割或多模态接口</text>
+<polyline points="1166,295 1201,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1201,295 1189.591426695425,301.2325320018546 1189.591426695425,288.7674679981454" fill="#69829a"/>
+<text x="45" y="458" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">视觉 token 通常是连续向量，不必来自与文字相同的离散词表。</text>
+</svg>
