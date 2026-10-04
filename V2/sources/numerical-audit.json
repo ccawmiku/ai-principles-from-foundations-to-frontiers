@@ -1,0 +1,956 @@
+{
+  "scope": "Worked numerical examples, not a proof of all prose or methods",
+  "passed": 62,
+  "total": 62,
+  "source_sha256": "2c5f6e493c4b8b3b4ddb70b950b2ee5ec727380077a6062b21cb1e6664bcd483",
+  "checks": [
+    {
+      "chapter": 2,
+      "example": "shortest route",
+      "computed": [
+        5,
+        6
+      ],
+      "printed_or_exact_target": [
+        5,
+        6
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0,
+      "pass": true
+    },
+    {
+      "chapter": 3,
+      "example": "Bayes single alarm",
+      "computed": [
+        0.15384615384615385
+      ],
+      "printed_or_exact_target": [
+        0.15384615384615385
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 3,
+      "example": "two conditionally independent alarms",
+      "computed": [
+        0.7659574468085106
+      ],
+      "printed_or_exact_target": [
+        0.7659574468085106
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 3,
+      "example": "changed prevalence",
+      "computed": [
+        0.8181818181818182
+      ],
+      "printed_or_exact_target": [
+        0.8181818181818182
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 4,
+      "example": "regression w=0.2",
+      "computed": [
+        168.0
+      ],
+      "printed_or_exact_target": [
+        168
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 4,
+      "example": "regression w=0.4",
+      "computed": [
+        18.666666666666668
+      ],
+      "printed_or_exact_target": [
+        18.666666666666668
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 4,
+      "example": "regression w=0.5",
+      "computed": [
+        0.0
+      ],
+      "printed_or_exact_target": [
+        0
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 5,
+      "example": "class score construction",
+      "computed": [
+        1.6,
+        2.0
+      ],
+      "printed_or_exact_target": [
+        1.6,
+        2
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 5,
+      "example": "class probabilities",
+      "computed": [
+        0.37123366523433016,
+        0.5538155503924651,
+        0.07495078437320482
+      ],
+      "printed_or_exact_target": [
+        0.371,
+        0.554,
+        0.075
+      ],
+      "tolerance": 0.001,
+      "max_error": 0.0002336652343301604,
+      "pass": true
+    },
+    {
+      "chapter": 5,
+      "example": "negative log losses",
+      "computed": [
+        0.10536051565782628,
+        0.6931471805599453,
+        2.3025850929940455,
+        4.605170185988091
+      ],
+      "printed_or_exact_target": [
+        0.105,
+        0.693,
+        2.303,
+        4.605
+      ],
+      "tolerance": 0.001,
+      "max_error": 0.00041490700595447905,
+      "pass": true
+    },
+    {
+      "chapter": 7,
+      "example": "Gini reduction",
+      "computed": [
+        0.125
+      ],
+      "printed_or_exact_target": [
+        0.125
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 8,
+      "example": "PCA projected coordinates",
+      "computed": [
+        -2.23606797749979,
+        0.0,
+        2.23606797749979
+      ],
+      "printed_or_exact_target": [
+        -2.23606797749979,
+        0,
+        2.23606797749979
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 10,
+      "example": "imbalanced classification",
+      "computed": [
+        0.24615384615384617,
+        0.8,
+        0.947,
+        498
+      ],
+      "printed_or_exact_target": [
+        0.246,
+        0.8,
+        0.947,
+        498
+      ],
+      "tolerance": 0.001,
+      "max_error": 0.00015384615384617106,
+      "pass": true
+    },
+    {
+      "chapter": 11,
+      "example": "network forward",
+      "computed": [
+        2.5
+      ],
+      "printed_or_exact_target": [
+        2.5
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 12,
+      "example": "network initial loss",
+      "computed": [
+        1.125
+      ],
+      "printed_or_exact_target": [
+        1.125
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 12,
+      "example": "finite difference all network gradients",
+      "computed": [
+        -6.000000000039306,
+        -3.000000000019653,
+        -3.000000000019653,
+        3.000000000019653,
+        1.5000000000098266,
+        1.5000000000098266,
+        -2.250000000048047,
+        -1.5000000000098266,
+        -1.5000000000098266
+      ],
+      "printed_or_exact_target": [
+        -6,
+        -3,
+        -3,
+        3,
+        1.5,
+        1.5,
+        -2.25,
+        -1.5,
+        -1.5
+      ],
+      "tolerance": 1e-08,
+      "max_error": 4.8046899792097975e-11,
+      "pass": true
+    },
+    {
+      "chapter": 12,
+      "example": "one weight step 0.1",
+      "computed": [
+        0.4050000000000003
+      ],
+      "printed_or_exact_target": [
+        0.405
+      ],
+      "tolerance": 1e-10,
+      "max_error": 2.7755575615628914e-16,
+      "pass": true
+    },
+    {
+      "chapter": 12,
+      "example": "one weight step 0.05",
+      "computed": [
+        0.04499999999999995
+      ],
+      "printed_or_exact_target": [
+        0.045
+      ],
+      "tolerance": 1e-10,
+      "max_error": 4.85722573273506e-17,
+      "pass": true
+    },
+    {
+      "chapter": 13,
+      "example": "quadratic descent .25",
+      "computed": [
+        1.5,
+        2.25
+      ],
+      "printed_or_exact_target": [
+        1.5,
+        2.25
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 13,
+      "example": "momentum history",
+      "computed": [
+        0.4,
+        0.76,
+        0.5840000000000001
+      ],
+      "printed_or_exact_target": [
+        0.4,
+        0.76,
+        0.584
+      ],
+      "tolerance": 1e-10,
+      "max_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "chapter": 13,
+      "example": "gradient norm clipping",
+      "computed": [
+        0.6,
+        0.8
+      ],
+      "printed_or_exact_target": [
+        0.6,
+        0.8
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 14,
+      "example": "convolution window",
+      "computed": [
+        -2
+      ],
+      "printed_or_exact_target": [
+        -2
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0,
+      "pass": true
+    },
+    {
+      "chapter": 15,
+      "example": "LSTM memory",
+      "computed": [
+        1.4300000000000002
+      ],
+      "printed_or_exact_target": [
+        1.43
+      ],
+      "tolerance": 1e-10,
+      "max_error": 2.220446049250313e-16,
+      "pass": true
+    },
+    {
+      "chapter": 17,
+      "example": "attention weights",
+      "computed": [
+        0.14002924504337802,
+        0.575975345215362,
+        0.28399540974126003
+      ],
+      "printed_or_exact_target": [
+        0.14,
+        0.576,
+        0.284
+      ],
+      "tolerance": 0.001,
+      "max_error": 2.9245043378006708e-05,
+      "pass": true
+    },
+    {
+      "chapter": 17,
+      "example": "attention weighted values",
+      "computed": [
+        0.424024654784638,
+        1.435946100171984
+      ],
+      "printed_or_exact_target": [
+        0.424,
+        1.436
+      ],
+      "tolerance": 0.001,
+      "max_error": 5.3899828015957496e-05,
+      "pass": true
+    },
+    {
+      "chapter": 17,
+      "example": "masked attention",
+      "computed": [
+        0.19557031749304313,
+        1.6088593650139138
+      ],
+      "printed_or_exact_target": [
+        0.196,
+        1.609
+      ],
+      "tolerance": 0.001,
+      "max_error": 0.00042968250695687993,
+      "pass": true
+    },
+    {
+      "chapter": 18,
+      "example": "residual then layer norm",
+      "computed": [
+        -1.0,
+        1.0
+      ],
+      "printed_or_exact_target": [
+        -1,
+        1
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 20,
+      "example": "state recurrence",
+      "computed": [
+        0.2,
+        0.16000000000000003,
+        0.12800000000000003
+      ],
+      "printed_or_exact_target": [
+        0.2,
+        0.16,
+        0.128
+      ],
+      "tolerance": 1e-10,
+      "max_error": 2.7755575615628914e-17,
+      "pass": true
+    },
+    {
+      "chapter": 21,
+      "example": "four token average loss",
+      "computed": [
+        0.8605048440456026
+      ],
+      "printed_or_exact_target": [
+        0.86
+      ],
+      "tolerance": 0.001,
+      "max_error": 0.0005048440456025816,
+      "pass": true
+    },
+    {
+      "chapter": 21,
+      "example": "logit loss gradients",
+      "computed": [
+        0.2,
+        -0.5,
+        0.3
+      ],
+      "printed_or_exact_target": [
+        0.2,
+        -0.5,
+        0.3
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 23,
+      "example": "reward model pair",
+      "computed": [
+        0.8807970779778823
+      ],
+      "printed_or_exact_target": [
+        0.881
+      ],
+      "tolerance": 0.001,
+      "max_error": 0.00020292202211769084,
+      "pass": true
+    },
+    {
+      "chapter": 23,
+      "example": "DPO relative pair",
+      "computed": [
+        0.52497918747894
+      ],
+      "printed_or_exact_target": [
+        0.525
+      ],
+      "tolerance": 0.001,
+      "max_error": 2.0812521060009637e-05,
+      "pass": true
+    },
+    {
+      "chapter": 24,
+      "example": "temperature .5",
+      "computed": [
+        0.782608695652174,
+        0.19565217391304346,
+        0.021739130434782622
+      ],
+      "printed_or_exact_target": [
+        0.783,
+        0.196,
+        0.022
+      ],
+      "tolerance": 0.001,
+      "max_error": 0.0003913043478260825,
+      "pass": true
+    },
+    {
+      "chapter": 24,
+      "example": "temperature 2",
+      "computed": [
+        0.4727338749895047,
+        0.3342733287016724,
+        0.19299279630882285
+      ],
+      "printed_or_exact_target": [
+        0.473,
+        0.334,
+        0.193
+      ],
+      "tolerance": 0.001,
+      "max_error": 0.000273328701672404,
+      "pass": true
+    },
+    {
+      "chapter": 25,
+      "example": "independent five attempts",
+      "computed": [
+        0.6723199999999999
+      ],
+      "printed_or_exact_target": [
+        0.67232
+      ],
+      "tolerance": 1e-10,
+      "max_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "chapter": 27,
+      "example": "LoRA parameter fraction",
+      "computed": [
+        0.00390625
+      ],
+      "printed_or_exact_target": [
+        0.00390625
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 28,
+      "example": "KV cache bytes",
+      "computed": [
+        9830400
+      ],
+      "printed_or_exact_target": [
+        9830400
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0,
+      "pass": true
+    },
+    {
+      "chapter": 32,
+      "example": "intersection over union",
+      "computed": [
+        0.391304347826087
+      ],
+      "printed_or_exact_target": [
+        0.391304347826087
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 34,
+      "example": "VAE reparameterization",
+      "computed": [
+        0.7,
+        -1.6
+      ],
+      "printed_or_exact_target": [
+        0.7,
+        -1.6
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 35,
+      "example": "noise and reconstruction",
+      "computed": [
+        1.0,
+        2.0
+      ],
+      "printed_or_exact_target": [
+        1,
+        2
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 36,
+      "example": "flow state and update",
+      "computed": [
+        -0.5,
+        0.5,
+        -0.3,
+        0.7
+      ],
+      "printed_or_exact_target": [
+        -0.5,
+        0.5,
+        -0.3,
+        0.7
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 38,
+      "example": "audio sample count and frame rate",
+      "computed": [
+        960000,
+        100.0
+      ],
+      "printed_or_exact_target": [
+        960000,
+        100
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0,
+      "pass": true
+    },
+    {
+      "chapter": 40,
+      "example": "visual block count",
+      "computed": [
+        196.0
+      ],
+      "printed_or_exact_target": [
+        196
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 43,
+      "example": "discounted alternatives",
+      "computed": [
+        7.0,
+        -6.0
+      ],
+      "printed_or_exact_target": [
+        7,
+        -6
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 43,
+      "example": "current Bellman action estimates",
+      "computed": [
+        -9.2,
+        -7.675
+      ],
+      "printed_or_exact_target": [
+        -9.2,
+        -7.675
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 44,
+      "example": "TD single step",
+      "computed": [
+        5.14
+      ],
+      "printed_or_exact_target": [
+        5.14
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 44,
+      "example": "three two-step episodes",
+      "computed": [
+        -0.5,
+        2.5,
+        0.375,
+        3.75,
+        1.375,
+        4.375
+      ],
+      "printed_or_exact_target": [
+        -0.5,
+        2.5,
+        0.375,
+        3.75,
+        1.375,
+        4.375
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 45,
+      "example": "policy good action probability",
+      "computed": [
+        0.43500358633981256
+      ],
+      "printed_or_exact_target": [
+        0.435
+      ],
+      "tolerance": 0.001,
+      "max_error": 3.586339812566841e-06,
+      "pass": true
+    },
+    {
+      "chapter": 45,
+      "example": "PPO positive and negative clipped terms",
+      "computed": [
+        1.44,
+        -0.6400000000000001
+      ],
+      "printed_or_exact_target": [
+        1.44,
+        -0.64
+      ],
+      "tolerance": 1e-10,
+      "max_error": 1.1102230246251565e-16,
+      "pass": true
+    },
+    {
+      "chapter": 46,
+      "example": "serial and overlapped maintenance durations",
+      "computed": [
+        57,
+        45
+      ],
+      "printed_or_exact_target": [
+        57,
+        45
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0,
+      "pass": true
+    },
+    {
+      "chapter": 47,
+      "example": "standardized causal proportions",
+      "computed": [
+        0.1,
+        0.2
+      ],
+      "printed_or_exact_target": [
+        0.1,
+        0.2
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 47,
+      "example": "inverse propensity weighted proportions",
+      "computed": [
+        0.1,
+        0.2
+      ],
+      "printed_or_exact_target": [
+        0.1,
+        0.2
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 50,
+      "example": "four MPC action sequences",
+      "computed": [
+        29.0,
+        28.1,
+        28.5,
+        27.650000000000002,
+        29.0,
+        27.6,
+        28.5,
+        27.150000000000002
+      ],
+      "printed_or_exact_target": [
+        29,
+        28.1,
+        28.5,
+        27.65,
+        29,
+        27.6,
+        28.5,
+        27.15
+      ],
+      "tolerance": 1e-10,
+      "max_error": 3.552713678800501e-15,
+      "pass": true
+    },
+    {
+      "chapter": 51,
+      "example": "coordinate rotation and translation",
+      "computed": [
+        0.9,
+        0.2
+      ],
+      "printed_or_exact_target": [
+        0.9,
+        0.2
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 52,
+      "example": "acquisition scores kappa 1",
+      "computed": [
+        82,
+        85,
+        73
+      ],
+      "printed_or_exact_target": [
+        82,
+        85,
+        73
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0,
+      "pass": true
+    },
+    {
+      "chapter": 55,
+      "example": "deployment distribution reweighting",
+      "computed": [
+        0.7625,
+        0.625
+      ],
+      "printed_or_exact_target": [
+        0.7625,
+        0.625
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 55,
+      "example": "Bernoulli standard error",
+      "computed": [
+        0.04
+      ],
+      "printed_or_exact_target": [
+        0.04
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 56,
+      "example": "selective coverage and accuracy",
+      "computed": [
+        0.7,
+        0.9
+      ],
+      "printed_or_exact_target": [
+        0.7,
+        0.9
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 58,
+      "example": "cost with retry and per success",
+      "computed": [
+        345.0,
+        0.03833333333333333
+      ],
+      "printed_or_exact_target": [
+        345,
+        0.03833333333333333
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 3,
+      "example": "HMM observation and filter",
+      "computed": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.058823529411764705
+      ],
+      "printed_or_exact_target": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.058823529411764705
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0.0,
+      "pass": true
+    },
+    {
+      "chapter": 57,
+      "example": "equal error rates unequal precision",
+      "computed": [
+        0.24615384615384617,
+        0.64
+      ],
+      "printed_or_exact_target": [
+        0.246,
+        0.64
+      ],
+      "tolerance": 0.001,
+      "max_error": 0.00015384615384617106,
+      "pass": true
+    },
+    {
+      "chapter": 58,
+      "example": "energy and emissions",
+      "computed": [
+        2,
+        0.8
+      ],
+      "printed_or_exact_target": [
+        2,
+        0.8
+      ],
+      "tolerance": 1e-10,
+      "max_error": 0,
+      "pass": true
+    }
+  ]
+}

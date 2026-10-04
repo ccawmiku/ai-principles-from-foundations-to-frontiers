@@ -1,5 +1,7 @@
 # 原版基线与 V2 迁移安排
 
+> 本文件记录立项时的原版分析与迁移设计。V2 已完成正文，当前状态与实际规模见 README.md、edition.json 和 REVIEW.md。
+
 ## 原版基线
 
 仓库：ccawmiku/ai-principles-from-foundations-to-frontiers  

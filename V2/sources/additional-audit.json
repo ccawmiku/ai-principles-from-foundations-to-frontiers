@@ -1,0 +1,129 @@
+[
+  {
+    "url": "https://www.statlearning.com/",
+    "title": "An Introduction to Statistical Learning",
+    "topic": "传统监督学习、树、SVM、聚类、重采样",
+    "status_code": 200,
+    "page_title": "An Introduction to Statistical Learning",
+    "accessible": true,
+    "checked_at": "2026-10-04",
+    "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+  },
+  {
+    "url": "https://www.deeplearningbook.org/",
+    "title": "Deep Learning",
+    "topic": "表示、优化、泛化与概率基础",
+    "status_code": 200,
+    "page_title": "Deep Learning",
+    "accessible": true,
+    "checked_at": "2026-10-04",
+    "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+  },
+  {
+    "url": "https://incompleteideas.net/book/the-book-2nd.html",
+    "title": "Reinforcement Learning: An Introduction, second edition",
+    "topic": "MDP、TD、价值与策略学习",
+    "accessible": false,
+    "error": "HTTPError"
+  },
+  {
+    "url": "https://bayes.cs.ucla.edu/BOOK-2K/",
+    "title": "Causality",
+    "topic": "因果图、干预与识别假设",
+    "status_code": 200,
+    "page_title": "CAUSALITY, 2nd Edition, 2009",
+    "accessible": true,
+    "checked_at": "2026-10-04",
+    "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dendral",
+    "title": "Dendral",
+    "topic": "历史项目定位；二手概览",
+    "status_code": 200,
+    "page_title": "Dendral - Wikipedia",
+    "accessible": true,
+    "checked_at": "2026-10-04",
+    "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/MYCIN",
+    "title": "MYCIN",
+    "topic": "规则与确定性因子历史定位；二手概览",
+    "status_code": 200,
+    "page_title": "Mycin - Wikipedia",
+    "accessible": true,
+    "checked_at": "2026-10-04",
+    "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+  },
+  {
+    "url": "https://arxiv.org/abs/1412.6980",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "topic": "优化器一阶二阶状态",
+    "status_code": 200,
+    "page_title": "[1412.6980] Adam: A Method for Stochastic Optimization",
+    "accessible": true,
+    "checked_at": "2026-10-04",
+    "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+  },
+  {
+    "url": "https://arxiv.org/abs/1705.07874",
+    "title": "A Unified Approach to Interpreting Model Predictions",
+    "topic": "SHAP与特征归因",
+    "status_code": 200,
+    "page_title": "[1705.07874] A Unified Approach to Interpreting Model Predictions",
+    "accessible": true,
+    "checked_at": "2026-10-04",
+    "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+  },
+  {
+    "url": "https://arxiv.org/abs/1703.01365",
+    "title": "Axiomatic Attribution for Deep Networks",
+    "topic": "积分梯度",
+    "status_code": 200,
+    "page_title": "[1703.01365] Axiomatic Attribution for Deep Networks",
+    "accessible": true,
+    "checked_at": "2026-10-04",
+    "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html",
+    "title": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+    "topic": "稀疏表示与特征解释",
+    "status_code": 200,
+    "page_title": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+    "accessible": true,
+    "checked_at": "2026-10-04",
+    "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+  },
+  {
+    "url": "https://arxiv.org/abs/1607.00133",
+    "title": "Deep Learning with Differential Privacy",
+    "topic": "差分隐私训练与条件",
+    "status_code": 200,
+    "page_title": "[1607.00133] Deep Learning with Differential Privacy",
+    "accessible": true,
+    "checked_at": "2026-10-04",
+    "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+  },
+  {
+    "url": "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
+    "title": "Reinforcement Learning: An Introduction, second edition",
+    "topic": "MDP、TD、价值与策略学习；出版书目",
+    "accessible": true,
+    "status_code": 200,
+    "page_title": "Reinforcement Learning",
+    "checked_at": "2026-10-04",
+    "scope": "publisher bibliographic page"
+  },
+  {
+    "url": "https://aima.cs.berkeley.edu/",
+    "title": "Artificial Intelligence: A Modern Approach",
+    "topic": "搜索、知识表示、推理、规划与智能体基础",
+    "accessible": true,
+    "status_code": 200,
+    "page_title": "Artificial Intelligence: A Modern Approach, 4th US ed.",
+    "checked_at": "2026-10-04",
+    "scope": "public textbook site and table of contents"
+  }
+]

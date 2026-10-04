@@ -1,0 +1,976 @@
+[
+  {
+    "chapter": 1,
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dendral",
+        "title": "Dendral",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/MYCIN",
+        "title": "MYCIN",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      },
+      {
+        "url": "https://aima.cs.berkeley.edu/",
+        "title": "Artificial Intelligence: A Modern Approach",
+        "scope": "public textbook site and table of contents"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 2,
+    "sources": [
+      {
+        "url": "https://aima.cs.berkeley.edu/",
+        "title": "Artificial Intelligence: A Modern Approach",
+        "scope": "public textbook site and table of contents"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 3,
+    "sources": [
+      {
+        "url": "https://www.deeplearningbook.org/",
+        "title": "Deep Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 4,
+    "sources": [
+      {
+        "url": "https://www.statlearning.com/",
+        "title": "An Introduction to Statistical Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      },
+      {
+        "url": "https://www.deeplearningbook.org/",
+        "title": "Deep Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 5,
+    "sources": [
+      {
+        "url": "https://www.statlearning.com/",
+        "title": "An Introduction to Statistical Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      },
+      {
+        "url": "https://www.deeplearningbook.org/",
+        "title": "Deep Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 6,
+    "sources": [
+      {
+        "url": "https://www.statlearning.com/",
+        "title": "An Introduction to Statistical Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 7,
+    "sources": [
+      {
+        "url": "https://www.statlearning.com/",
+        "title": "An Introduction to Statistical Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 8,
+    "sources": [
+      {
+        "url": "https://www.statlearning.com/",
+        "title": "An Introduction to Statistical Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 9,
+    "sources": [
+      {
+        "url": "https://www.statlearning.com/",
+        "title": "An Introduction to Statistical Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 10,
+    "sources": [
+      {
+        "url": "https://www.statlearning.com/",
+        "title": "An Introduction to Statistical Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 11,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1512.03385",
+        "title": "Deep Residual Learning for Image Recognition",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://www.deeplearningbook.org/",
+        "title": "Deep Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 12,
+    "sources": [
+      {
+        "url": "https://www.deeplearningbook.org/",
+        "title": "Deep Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 13,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1607.06450",
+        "title": "Layer Normalization",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1910.07467",
+        "title": "Root Mean Square Layer Normalization",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1512.03385",
+        "title": "Deep Residual Learning for Image Recognition",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1412.6980",
+        "title": "Adam: A Method for Stochastic Optimization",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      },
+      {
+        "url": "https://www.deeplearningbook.org/",
+        "title": "Deep Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 14,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1512.03385",
+        "title": "Deep Residual Learning for Image Recognition",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 15,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1409.0473",
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 16,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2104.09864",
+        "title": "RoFormer",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 17,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1409.0473",
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1706.03762",
+        "title": "Attention Is All You Need",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2305.13245",
+        "title": "GQA",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 18,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1706.03762",
+        "title": "Attention Is All You Need",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1607.06450",
+        "title": "Layer Normalization",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1910.07467",
+        "title": "Root Mean Square Layer Normalization",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2002.05202",
+        "title": "GLU Variants Improve Transformer",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 19,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1409.0473",
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1706.03762",
+        "title": "Attention Is All You Need",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1810.04805",
+        "title": "BERT",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1910.10683",
+        "title": "T5: Exploring the Limits of Transfer Learning",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 20,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2312.00752",
+        "title": "Mamba",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2405.21060",
+        "title": "Transformers are SSMs",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2412.06464",
+        "title": "Gated Delta Networks",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 21,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1810.04805",
+        "title": "BERT",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1910.10683",
+        "title": "T5: Exploring the Limits of Transfer Learning",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2203.15556",
+        "title": "Training Compute-Optimal Large Language Models",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 22,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2203.15556",
+        "title": "Training Compute-Optimal Large Language Models",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 23,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2203.02155",
+        "title": "Training language models to follow instructions with human feedback",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2305.18290",
+        "title": "Direct Preference Optimization",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1707.06347",
+        "title": "Proximal Policy Optimization Algorithms",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 24,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2305.13245",
+        "title": "GQA",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2302.01318",
+        "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2309.06180",
+        "title": "PagedAttention",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 25,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2402.03300",
+        "title": "DeepSeekMath",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2501.12948",
+        "title": "DeepSeek-R1",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2505.09388",
+        "title": "Qwen3 Technical Report",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 26,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2412.19437",
+        "title": "DeepSeek-V3 Technical Report",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 27,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2106.09685",
+        "title": "LoRA",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2305.14314",
+        "title": "QLoRA",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 28,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2205.14135",
+        "title": "FlashAttention",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2305.13245",
+        "title": "GQA",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2302.01318",
+        "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2309.06180",
+        "title": "PagedAttention",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 29,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2104.09864",
+        "title": "RoFormer",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2005.11401",
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 30,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2005.11401",
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 31,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2010.11929",
+        "title": "An Image is Worth 16x16 Words",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 32,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2005.12872",
+        "title": "End-to-End Object Detection with Transformers",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2304.02643",
+        "title": "Segment Anything",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2003.08934",
+        "title": "NeRF",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2308.04079",
+        "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 33,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2103.00020",
+        "title": "Learning Transferable Visual Models From Natural Language Supervision",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2111.06377",
+        "title": "Masked Autoencoders Are Scalable Vision Learners",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2104.14294",
+        "title": "Emerging Properties in Self-Supervised Vision Transformers",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2301.08243",
+        "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 34,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1312.6114",
+        "title": "Auto-Encoding Variational Bayes",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1406.2661",
+        "title": "Generative Adversarial Networks",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 35,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2006.11239",
+        "title": "Denoising Diffusion Probabilistic Models",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2010.02502",
+        "title": "Denoising Diffusion Implicit Models",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2011.13456",
+        "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2112.10752",
+        "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 36,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2210.02747",
+        "title": "Flow Matching for Generative Modeling",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2209.03003",
+        "title": "Flow Straight and Fast",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2212.09748",
+        "title": "Scalable Diffusion Models with Transformers",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2303.01469",
+        "title": "Consistency Models",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 37,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2207.12598",
+        "title": "Classifier-Free Diffusion Guidance",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2302.05543",
+        "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 38,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2212.04356",
+        "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 39,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2210.13438",
+        "title": "High Fidelity Neural Audio Compression",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 40,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2103.00020",
+        "title": "Learning Transferable Visual Models From Natural Language Supervision",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2304.08485",
+        "title": "Visual Instruction Tuning",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2502.13923",
+        "title": "Qwen2.5-VL Technical Report",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 41,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2502.10248",
+        "title": "Step-Video-T2V Technical Report",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2511.18870",
+        "title": "HunyuanVideo 1.5 Technical Report",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 42,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2509.17765",
+        "title": "Qwen3-Omni Technical Report",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 43,
+    "sources": [
+      {
+        "url": "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
+        "title": "Reinforcement Learning: An Introduction, second edition",
+        "scope": "publisher bibliographic page"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 44,
+    "sources": [
+      {
+        "url": "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
+        "title": "Reinforcement Learning: An Introduction, second edition",
+        "scope": "publisher bibliographic page"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 45,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1707.06347",
+        "title": "Proximal Policy Optimization Algorithms",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://mitpress.mit.edu/9780262039246/reinforcement-learning/",
+        "title": "Reinforcement Learning: An Introduction, second edition",
+        "scope": "publisher bibliographic page"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 46,
+    "sources": [
+      {
+        "url": "https://aima.cs.berkeley.edu/",
+        "title": "Artificial Intelligence: A Modern Approach",
+        "scope": "public textbook site and table of contents"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 47,
+    "sources": [
+      {
+        "url": "https://bayes.cs.ucla.edu/BOOK-2K/",
+        "title": "Causality",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 48,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2210.03629",
+        "title": "ReAct",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 49,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2210.03629",
+        "title": "ReAct",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 50,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2301.04104",
+        "title": "Mastering Diverse Domains through World Models",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 51,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2303.04137",
+        "title": "Diffusion Policy",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 52,
+    "sources": [
+      {
+        "url": "https://www.nature.com/articles/s41586-024-07487-w",
+        "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://bayes.cs.ucla.edu/BOOK-2K/",
+        "title": "Causality",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 53,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1810.04805",
+        "title": "BERT",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/1910.10683",
+        "title": "T5: Exploring the Limits of Transfer Learning",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2501.12948",
+        "title": "DeepSeek-R1",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://www.deeplearningbook.org/",
+        "title": "Deep Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 54,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1705.07874",
+        "title": "A Unified Approach to Interpreting Model Predictions",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      },
+      {
+        "url": "https://arxiv.org/abs/1703.01365",
+        "title": "Axiomatic Attribution for Deep Networks",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      },
+      {
+        "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html",
+        "title": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 55,
+    "sources": [
+      {
+        "url": "https://www.statlearning.com/",
+        "title": "An Introduction to Statistical Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 56,
+    "sources": [
+      {
+        "url": "https://www.statlearning.com/",
+        "title": "An Introduction to Statistical Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 57,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1607.00133",
+        "title": "Deep Learning with Differential Privacy",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 58,
+    "sources": [],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 59,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2312.00752",
+        "title": "Mamba",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2405.21060",
+        "title": "Transformers are SSMs",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2412.06464",
+        "title": "Gated Delta Networks",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2502.09992",
+        "title": "Large Language Diffusion Models",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://www.deeplearningbook.org/",
+        "title": "Deep Learning",
+        "scope": "public webpage or bibliographic metadata; not a full-text peer review"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  },
+  {
+    "chapter": 60,
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1706.03762",
+        "title": "Attention Is All You Need",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2005.11401",
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2006.11239",
+        "title": "Denoising Diffusion Probabilistic Models",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2210.02747",
+        "title": "Flow Matching for Generative Modeling",
+        "scope": "bibliographic metadata and public abstract"
+      },
+      {
+        "url": "https://arxiv.org/abs/2303.04137",
+        "title": "Diffusion Policy",
+        "scope": "bibliographic metadata and public abstract"
+      }
+    ],
+    "teaching_case": "authored, simplified; not an empirical result"
+  }
+]
