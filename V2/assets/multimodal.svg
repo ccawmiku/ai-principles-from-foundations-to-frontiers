@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" role="img">
+<title>视觉语言模型：图像不必先变成一句话</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">视觉语言模型：图像不必先变成一句话</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">一种常见连接方案；其他模型可以使用交叉注意力或联合主干。</text>
+<rect x="45" y="210" width="254" height="170" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">图像</text>
+<text x="59" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">像素与空间结构</text>
+<text x="59" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">可动态切块</text>
+<rect x="334" y="210" width="254" height="170" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="348" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">视觉编码器</text>
+<text x="348" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">m × dv 特征</text>
+<text x="348" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">保留区域信息</text>
+<polyline points="299,295 334,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="334,295 322.5914266954251,301.2325320018546 322.5914266954251,288.7674679981454" fill="#69829a"/>
+<rect x="623" y="210" width="254" height="170" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="637" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">连接模块</text>
+<text x="637" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">映射 / 压缩</text>
+<text x="637" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">变成 m′ × dl</text>
+<polyline points="588,295 623,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="623,295 611.5914266954252,301.2325320018546 611.5914266954252,288.7674679981454" fill="#69829a"/>
+<rect x="912" y="210" width="254" height="170" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="926" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">语言主干</text>
+<text x="926" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">视觉向量 + 问题</text>
+<text x="926" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">按掩码交互</text>
+<polyline points="877,295 912,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="912,295 900.5914266954252,301.2325320018546 900.5914266954252,288.7674679981454" fill="#69829a"/>
+<rect x="1201" y="210" width="254" height="170" rx="14" fill="#e7f4ed" stroke="#69829a" stroke-width="2"/>
+<text x="1215" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">文字输出</text>
+<text x="1215" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">生成条件分布</text>
+<text x="1215" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">逐 token 回答</text>
+<polyline points="1166,295 1201,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1201,295 1189.591426695425,301.2325320018546 1189.591426695425,288.7674679981454" fill="#69829a"/>
+<text x="45" y="458" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">训练让语言主干学会使用视觉证据；强语言先验也可能导致视觉幻觉。</text>
+</svg>

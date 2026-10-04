@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" role="img">
+<title>现代 AI 的五条连接线</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">现代 AI 的五条连接线</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">结构、训练目标和运行系统是不同层次，可以在一个模型中组合。</text>
+<rect x="45" y="230" width="250" height="190" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="271" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">学习基础</text>
+<text x="59" y="311" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">参数与表示</text>
+<text x="59" y="345" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">损失、梯度、泛化</text>
+<rect x="337" y="230" width="250" height="190" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="351" y="271" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">序列计算</text>
+<text x="351" y="311" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">RNN、注意力</text>
+<text x="351" y="345" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">Transformer、SSM</text>
+<polyline points="295,325 337,325" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="337,325 325.5914266954251,331.2325320018546 325.5914266954251,318.7674679981454" fill="#69829a"/>
+<rect x="629" y="230" width="250" height="190" rx="14" fill="#fff2d6" stroke="#69829a" stroke-width="2"/>
+<text x="643" y="271" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">训练与推理</text>
+<text x="643" y="311" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">预训练、偏好、RL</text>
+<text x="643" y="345" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">搜索、验证、预算</text>
+<polyline points="587,325 629,325" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="629,325 617.5914266954252,331.2325320018546 617.5914266954252,318.7674679981454" fill="#69829a"/>
+<rect x="921" y="230" width="250" height="190" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="935" y="271" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">感知与生成</text>
+<text x="935" y="311" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">视觉、声音、视频</text>
+<text x="935" y="345" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">扩散、流、联合模型</text>
+<polyline points="879,325 921,325" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="921,325 909.5914266954252,331.2325320018546 909.5914266954252,318.7674679981454" fill="#69829a"/>
+<rect x="1213" y="230" width="250" height="190" rx="14" fill="#e7f4ed" stroke="#69829a" stroke-width="2"/>
+<text x="1227" y="271" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">环境与科学</text>
+<text x="1227" y="311" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">工具、动作、图结构</text>
+<text x="1227" y="345" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">世界模型与验证</text>
+<polyline points="1171,325 1213,325" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1213,325 1201.591426695425,331.2325320018546 1201.591426695425,318.7674679981454" fill="#69829a"/>
+<text x="45" y="508" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">贯穿问题一：当前处理的是哪一种数据，形状如何变化？</text>
+<text x="45" y="542" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">贯穿问题二：哪些数字是参数，哪些只是本次计算的中间结果？</text>
+<text x="45" y="576" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">贯穿问题三：训练信号从哪里来，怎样影响实际行为？</text>
+<text x="45" y="610" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">贯穿问题四：哪些结果由模型产生，哪些由工具、采样或环境提供？</text>
+</svg>

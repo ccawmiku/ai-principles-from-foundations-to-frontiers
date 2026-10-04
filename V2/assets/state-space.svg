@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="0 0 1500 650" role="img">
+<title>两种历史信息组织方式</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">两种历史信息组织方式</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">两条分支分别展示显式历史与压缩状态；也可以在同一模型中组合。</text>
+<rect x="45" y="270" width="275" height="140" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="311" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">历史输入</text>
+<text x="59" y="351" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">x1, x2, …, xt</text>
+<text x="59" y="385" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">顺序进入系统</text>
+<rect x="515" y="160" width="390" height="140" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="529" y="201" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">显式位置缓存</text>
+<text x="529" y="241" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">保留多组 K/V</text>
+<text x="529" y="275" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">当前查询重新读取</text>
+<rect x="515" y="390" width="390" height="140" rx="14" fill="#fff2d6" stroke="#69829a" stroke-width="2"/>
+<text x="529" y="431" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">压缩状态</text>
+<text x="529" y="471" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">ht = At ht−1 + Bt xt</text>
+<text x="529" y="505" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">状态大小可固定</text>
+<rect x="1100" y="270" width="330" height="140" rx="14" fill="#e7f4ed" stroke="#69829a" stroke-width="2"/>
+<text x="1114" y="311" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">后续计算</text>
+<text x="1114" y="351" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">选择性检索或持续预测</text>
+<text x="1114" y="385" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">按任务需求评价</text>
+<polyline points="320,340 410,340 410,230 515,230" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="515,230 503.5914266954251,236.23253200185465 503.5914266954251,223.76746799814535" fill="#69829a"/>
+<polyline points="320,340 410,340 410,460 515,460" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="515,460 503.5914266954251,466.2325320018546 503.5914266954251,453.7674679981454" fill="#69829a"/>
+<polyline points="905,230 1000,230 1000,340 1100,340" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1100,340 1088.591426695425,346.2325320018546 1088.591426695425,333.7674679981454" fill="#69829a"/>
+<polyline points="905,460 1000,460 1000,340 1100,340" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1100,340 1088.591426695425,346.2325320018546 1088.591426695425,333.7674679981454" fill="#69829a"/>
+<text x="45" y="603" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">紧凑状态节约存储，显式位置便于回溯；二者的表达与成本需要分别比较。</text>
+</svg>

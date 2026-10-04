@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" role="img">
+<title>视频生成：时间是另一条必须建模的轴</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">视频生成：时间是另一条必须建模的轴</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">T 个潜在时刻、每时刻 S 个空间块，共 TS 个 token。</text>
+<rect x="45" y="210" width="254" height="170" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">视频数据</text>
+<text x="59" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">T × H × W × C</text>
+<text x="59" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">动作与相机运动</text>
+<rect x="334" y="210" width="254" height="170" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="348" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">时空压缩</text>
+<text x="348" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">空间与时间降采样</text>
+<text x="348" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">潜在视频数组</text>
+<polyline points="299,295 334,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="334,295 322.5914266954251,301.2325320018546 322.5914266954251,288.7674679981454" fill="#69829a"/>
+<rect x="623" y="210" width="254" height="170" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="637" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">时空 token</text>
+<text x="637" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">时间 + 高度 + 宽度</text>
+<text x="637" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">文字与图像条件</text>
+<polyline points="588,295 623,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="623,295 611.5914266954252,301.2325320018546 611.5914266954252,288.7674679981454" fill="#69829a"/>
+<rect x="912" y="210" width="254" height="170" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="926" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">DiT 迭代</text>
+<text x="926" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">全局 / 分解 / 稀疏</text>
+<text x="926" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">预测噪声或速度</text>
+<polyline points="877,295 912,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="912,295 900.5914266954252,301.2325320018546 900.5914266954252,288.7674679981454" fill="#69829a"/>
+<rect x="1201" y="210" width="254" height="170" rx="14" fill="#e7f4ed" stroke="#69829a" stroke-width="2"/>
+<text x="1215" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">解码与检查</text>
+<text x="1215" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">外观、运动、身份</text>
+<text x="1215" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">跨帧与条件一致性</text>
+<polyline points="1166,295 1201,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1201,295 1189.591426695425,301.2325320018546 1189.591426695425,288.7674679981454" fill="#69829a"/>
+<text x="45" y="458" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">全注意力交互约 (TS)²；分解计算改变信息路径，不能只看省下的运算数。</text>
+</svg>

@@ -1,0 +1,602 @@
+[
+  {
+    "url": "https://arxiv.org/abs/1409.0473",
+    "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+    "topic": "编码器—解码器注意力",
+    "original_chapters": "05",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[1409.0473] Neural Machine Translation by Jointly Learning to Align and Translate",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/1706.03762",
+    "title": "Attention Is All You Need",
+    "topic": "缩放点积、多头、原始Transformer",
+    "original_chapters": "07,08,09",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[1706.03762] Attention Is All You Need",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/1810.04805",
+    "title": "BERT",
+    "topic": "双向编码与遮蔽预训练",
+    "original_chapters": "09",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[1810.04805] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/1910.10683",
+    "title": "T5: Exploring the Limits of Transfer Learning",
+    "topic": "文本到文本与编码器—解码器",
+    "original_chapters": "09",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[1910.10683] Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2104.09864",
+    "title": "RoFormer",
+    "topic": "旋转位置编码",
+    "original_chapters": "06",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2104.09864] RoFormer: Enhanced Transformer with Rotary Position Embedding",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/1607.06450",
+    "title": "Layer Normalization",
+    "topic": "归一化定义",
+    "original_chapters": "08",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[1607.06450] Layer Normalization",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/1910.07467",
+    "title": "Root Mean Square Layer Normalization",
+    "topic": "RMSNorm",
+    "original_chapters": "08",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[1910.07467] Root Mean Square Layer Normalization",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2002.05202",
+    "title": "GLU Variants Improve Transformer",
+    "topic": "门控前馈网络",
+    "original_chapters": "08",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2002.05202] GLU Variants Improve Transformer",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.15556",
+    "title": "Training Compute-Optimal Large Language Models",
+    "topic": "模型规模、数据与计算配置",
+    "original_chapters": "12",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2203.15556] Training Compute-Optimal Large Language Models",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "topic": "示范与人类反馈训练",
+    "original_chapters": "13",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2203.02155] Training language models to follow instructions with human feedback",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.18290",
+    "title": "Direct Preference Optimization",
+    "topic": "直接偏好目标",
+    "original_chapters": "13",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2305.18290] Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/1707.06347",
+    "title": "Proximal Policy Optimization Algorithms",
+    "topic": "PPO裁剪目标",
+    "original_chapters": "14",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[1707.06347] Proximal Policy Optimization Algorithms",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2402.03300",
+    "title": "DeepSeekMath",
+    "topic": "GRPO及其背景",
+    "original_chapters": "15",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2402.03300] DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2501.12948",
+    "title": "DeepSeek-R1",
+    "topic": "可验证任务上的强化学习与推理",
+    "original_chapters": "15",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2501.12948] DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2505.09388",
+    "title": "Qwen3 Technical Report",
+    "topic": "推理模式与预算的代表实践",
+    "original_chapters": "15,35",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2505.09388] Qwen3 Technical Report",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.19437",
+    "title": "DeepSeek-V3 Technical Report",
+    "topic": "MoE、MLA和训练系统",
+    "original_chapters": "16,17",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2412.19437] DeepSeek-V3 Technical Report",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2205.14135",
+    "title": "FlashAttention",
+    "topic": "IO感知的精确注意力计算",
+    "original_chapters": "17",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2205.14135] FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.13245",
+    "title": "GQA",
+    "topic": "分组查询注意力",
+    "original_chapters": "17",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2305.13245] GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2106.09685",
+    "title": "LoRA",
+    "topic": "低秩适配",
+    "original_chapters": "17",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2106.09685] LoRA: Low-Rank Adaptation of Large Language Models",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.14314",
+    "title": "QLoRA",
+    "topic": "量化基础权重与低秩微调",
+    "original_chapters": "17",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2305.14314] QLoRA: Efficient Finetuning of Quantized LLMs",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.01318",
+    "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+    "topic": "推测采样",
+    "original_chapters": "17",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2302.01318] Accelerating Large Language Model Decoding with Speculative Sampling",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2309.06180",
+    "title": "PagedAttention",
+    "topic": "KV缓存内存管理",
+    "original_chapters": "17",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2309.06180] Efficient Memory Management for Large Language Model Serving with PagedAttention",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.11401",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "topic": "检索增强生成",
+    "original_chapters": "18",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2005.11401] Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.03629",
+    "title": "ReAct",
+    "topic": "行动与观察循环",
+    "original_chapters": "19",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2210.03629] ReAct: Synergizing Reasoning and Acting in Language Models",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2312.00752",
+    "title": "Mamba",
+    "topic": "选择性状态空间模型",
+    "original_chapters": "20",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2312.00752] Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2405.21060",
+    "title": "Transformers are SSMs",
+    "topic": "状态空间对偶与Mamba-2",
+    "original_chapters": "20",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2405.21060] Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2412.06464",
+    "title": "Gated Delta Networks",
+    "topic": "门控、Delta规则与混合架构",
+    "original_chapters": "20,35",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2412.06464] Gated Delta Networks: Improving Mamba2 with Delta Rule",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/1512.03385",
+    "title": "Deep Residual Learning for Image Recognition",
+    "topic": "残差视觉网络",
+    "original_chapters": "21",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[1512.03385] Deep Residual Learning for Image Recognition",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.11929",
+    "title": "An Image is Worth 16x16 Words",
+    "topic": "ViT与图像块",
+    "original_chapters": "21",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2010.11929] An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2005.12872",
+    "title": "End-to-End Object Detection with Transformers",
+    "topic": "DETR与集合式检测",
+    "original_chapters": "21",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2005.12872] End-to-End Object Detection with Transformers",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.02643",
+    "title": "Segment Anything",
+    "topic": "提示式分割",
+    "original_chapters": "21",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2304.02643] Segment Anything",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2103.00020",
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "topic": "CLIP图文对比学习",
+    "original_chapters": "22",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2103.00020] Learning Transferable Visual Models From Natural Language Supervision",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2111.06377",
+    "title": "Masked Autoencoders Are Scalable Vision Learners",
+    "topic": "MAE",
+    "original_chapters": "22",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2111.06377] Masked Autoencoders Are Scalable Vision Learners",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2104.14294",
+    "title": "Emerging Properties in Self-Supervised Vision Transformers",
+    "topic": "DINO教师学生自监督",
+    "original_chapters": "22",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2104.14294] Emerging Properties in Self-Supervised Vision Transformers",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.08243",
+    "title": "Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+    "topic": "I-JEPA表示预测",
+    "original_chapters": "22",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2301.08243] Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2304.08485",
+    "title": "Visual Instruction Tuning",
+    "topic": "视觉指令学习",
+    "original_chapters": "23",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2304.08485] Visual Instruction Tuning",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2502.13923",
+    "title": "Qwen2.5-VL Technical Report",
+    "topic": "动态视觉输入与视觉语言系统",
+    "original_chapters": "23",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2502.13923] Qwen2.5-VL Technical Report",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/1312.6114",
+    "title": "Auto-Encoding Variational Bayes",
+    "topic": "VAE及重参数化",
+    "original_chapters": "24",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[1312.6114] Auto-Encoding Variational Bayes",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/1406.2661",
+    "title": "Generative Adversarial Networks",
+    "topic": "GAN",
+    "original_chapters": "24",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[1406.2661] Generative Adversarial Networks",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2006.11239",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "topic": "DDPM训练与采样",
+    "original_chapters": "25",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2006.11239] Denoising Diffusion Probabilistic Models",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2010.02502",
+    "title": "Denoising Diffusion Implicit Models",
+    "topic": "DDIM",
+    "original_chapters": "25",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2010.02502] Denoising Diffusion Implicit Models",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2011.13456",
+    "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+    "topic": "Score与连续生成视角",
+    "original_chapters": "25",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2011.13456] Score-Based Generative Modeling through Stochastic Differential Equations",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2112.10752",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "topic": "潜在扩散",
+    "original_chapters": "25",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2112.10752] High-Resolution Image Synthesis with Latent Diffusion Models",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.02747",
+    "title": "Flow Matching for Generative Modeling",
+    "topic": "流匹配",
+    "original_chapters": "26",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2210.02747] Flow Matching for Generative Modeling",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2209.03003",
+    "title": "Flow Straight and Fast",
+    "topic": "Rectified Flow",
+    "original_chapters": "26",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2209.03003] Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.09748",
+    "title": "Scalable Diffusion Models with Transformers",
+    "topic": "DiT",
+    "original_chapters": "26",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2212.09748] Scalable Diffusion Models with Transformers",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.01469",
+    "title": "Consistency Models",
+    "topic": "一致性生成",
+    "original_chapters": "26",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2303.01469] Consistency Models",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2207.12598",
+    "title": "Classifier-Free Diffusion Guidance",
+    "topic": "无分类器引导",
+    "original_chapters": "27",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2207.12598] Classifier-Free Diffusion Guidance",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2302.05543",
+    "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+    "topic": "ControlNet",
+    "original_chapters": "27",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2302.05543] Adding Conditional Control to Text-to-Image Diffusion Models",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2502.10248",
+    "title": "Step-Video-T2V Technical Report",
+    "topic": "视频VAE、DiT与流匹配",
+    "original_chapters": "28",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2502.10248] Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.18870",
+    "title": "HunyuanVideo 1.5 Technical Report",
+    "topic": "视频架构、注意力与分阶段训练",
+    "original_chapters": "28",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2511.18870] HunyuanVideo 1.5 Technical Report",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.04356",
+    "title": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "topic": "Whisper代表路线",
+    "original_chapters": "29",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2212.04356] Robust Speech Recognition via Large-Scale Weak Supervision",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2210.13438",
+    "title": "High Fidelity Neural Audio Compression",
+    "topic": "神经音频压缩与离散码",
+    "original_chapters": "29",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2210.13438] High Fidelity Neural Audio Compression",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2509.17765",
+    "title": "Qwen3-Omni Technical Report",
+    "topic": "实时全模态与Thinker–Talker实例",
+    "original_chapters": "30",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2509.17765] Qwen3-Omni Technical Report",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2303.04137",
+    "title": "Diffusion Policy",
+    "topic": "生成式动作策略",
+    "original_chapters": "31",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2303.04137] Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2301.04104",
+    "title": "Mastering Diverse Domains through World Models",
+    "topic": "Dreamer世界模型与想象训练",
+    "original_chapters": "31",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2301.04104] Mastering Diverse Domains through World Models",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2003.08934",
+    "title": "NeRF",
+    "topic": "神经辐射场",
+    "original_chapters": "31",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2003.08934] NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2308.04079",
+    "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+    "topic": "三维高斯场景表示",
+    "original_chapters": "31",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2308.04079] 3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+    "accessible": true
+  },
+  {
+    "url": "https://www.nature.com/articles/s41586-024-07487-w",
+    "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3",
+    "topic": "分子结构预测与验证边界",
+    "original_chapters": "32",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3 | Nature",
+    "accessible": true
+  },
+  {
+    "url": "https://arxiv.org/abs/2502.09992",
+    "title": "Large Language Diffusion Models",
+    "topic": "LLaDA离散扩散语言建模",
+    "original_chapters": "35",
+    "checked_at": "2026-10-04",
+    "scope": "bibliographic metadata and public abstract",
+    "page_title": "[2502.09992] Large Language Diffusion Models",
+    "accessible": true
+  }
+]

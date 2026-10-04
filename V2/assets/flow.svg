@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="600" viewBox="0 0 1500 600" role="img">
+<title>流匹配：从端点构造监督，再学习速度场</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">流匹配：从端点构造监督，再学习速度场</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">本图 t=0 是噪声，t=1 是数据；与 DDPM 的编号习惯不同。</text>
+<rect x="45" y="210" width="326" height="170" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">采样两端</text>
+<text x="59" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">噪声 xnoise</text>
+<text x="59" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">数据 xdata</text>
+<rect x="406" y="210" width="326" height="170" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="420" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">选择 t</text>
+<text x="420" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">xt = (1−t)xnoise</text>
+<text x="420" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">       + t xdata</text>
+<polyline points="371,295 406,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="406,295 394.5914266954251,301.2325320018546 394.5914266954251,288.7674679981454" fill="#69829a"/>
+<rect x="767" y="210" width="326" height="170" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="781" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">预测速度</text>
+<text x="781" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">vθ(xt,t,c)</text>
+<text x="781" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">监督：xdata−xnoise</text>
+<polyline points="732,295 767,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="767,295 755.5914266954252,301.2325320018546 755.5914266954252,288.7674679981454" fill="#69829a"/>
+<rect x="1128" y="210" width="326" height="170" rx="14" fill="#e7f4ed" stroke="#69829a" stroke-width="2"/>
+<text x="1142" y="251" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">生成时积分</text>
+<text x="1142" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">x ← x + Δt · vθ</text>
+<text x="1142" y="325" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">从噪声走向数据</text>
+<polyline points="1093,295 1128,295" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1128,295 1116.591426695425,301.2325320018546 1116.591426695425,288.7674679981454" fill="#69829a"/>
+<text x="45" y="458" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">单条训练插值可为直线；汇总学习到的边缘速度场仍可能产生弯曲轨迹。</text>
+</svg>
