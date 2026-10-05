@@ -2,7 +2,7 @@
   "chapters": 60,
   "complete_chapters": 60,
   "minimum_body_cjk": 200000,
-  "body_cjk": 205219,
+  "body_cjk": 202242,
   "volumes": [
     {
       "slug": "01-foundations",
@@ -27,7 +27,7 @@
     {
       "slug": "05-action",
       "chapters": 10,
-      "body_cjk": 35957
+      "body_cjk": 32980
     },
     {
       "slug": "06-capabilities",
@@ -35,5 +35,5 @@
       "body_cjk": 29949
     }
   ],
-  "source_sha256": "f40c9e288ced4177770013202ef0273f636a3adee1902ebd81748fa22de51c74"
+  "source_sha256": "8fa80bdce463f77b3da5caddd6b759b50ac500aa1021ca2dcc15d6dbc3ea254e"
 }
