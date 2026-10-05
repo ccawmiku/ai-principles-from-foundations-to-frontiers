@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" role="img">
+<title>稀疏专家：选择内部模块，不是让完整模型投票</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">稀疏专家：选择内部模块，不是让完整模型投票</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">一个 token 可以在不同层被路由到不同专家。</text>
+<rect x="45" y="295" width="205" height="140" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="336" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">当前表示 x</text>
+<text x="59" y="376" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">单个 token</text>
+<rect x="325" y="295" width="250" height="140" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="339" y="336" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">路由器</text>
+<text x="339" y="376" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">计算各专家分数</text>
+<text x="339" y="410" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">选择 Top-k</text>
+<rect x="740" y="145" width="270" height="105" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="754" y="186" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">专家 1</text>
+<text x="754" y="226" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">独立 FFN 参数</text>
+<rect x="740" y="285" width="270" height="105" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="754" y="326" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">专家 2</text>
+<text x="754" y="366" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">独立 FFN 参数</text>
+<rect x="740" y="425" width="270" height="105" rx="14" fill="#f0f3f6" stroke="#69829a" stroke-width="2"/>
+<text x="754" y="466" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">专家 3</text>
+<text x="754" y="506" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">独立 FFN 参数</text>
+<rect x="740" y="565" width="270" height="105" rx="14" fill="#f0f3f6" stroke="#69829a" stroke-width="2"/>
+<text x="754" y="606" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">专家 4</text>
+<text x="754" y="646" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">独立 FFN 参数</text>
+<rect x="1190" y="295" width="265" height="145" rx="14" fill="#e7f4ed" stroke="#69829a" stroke-width="2"/>
+<text x="1204" y="336" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">加权合并</text>
+<text x="1204" y="376" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">输出回到 d 维</text>
+<text x="1204" y="410" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">再进入残差流</text>
+<polyline points="250,365 325,365" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="325,365 313.5914266954251,371.2325320018546 313.5914266954251,358.7674679981454" fill="#69829a"/>
+<polyline points="575,365 645,365 645,197 740,197" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="740,197 728.5914266954252,203.23253200185465 728.5914266954252,190.76746799814535" fill="#69829a"/>
+<polyline points="1010,197 1100,197 1100,365 1190,365" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1190,365 1178.591426695425,371.2325320018546 1178.591426695425,358.7674679981454" fill="#69829a"/>
+<polyline points="575,365 645,365 645,337 740,337" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="740,337 728.5914266954252,343.2325320018546 728.5914266954252,330.7674679981454" fill="#69829a"/>
+<polyline points="1010,337 1100,337 1100,365 1190,365" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1190,365 1178.591426695425,371.2325320018546 1178.591426695425,358.7674679981454" fill="#69829a"/>
+<text x="45" y="723" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">浅灰专家未被本 token 选中；其他 token 仍可能使用它们。</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="740" viewBox="0 0 1500 740" role="img">
+<title>扩散：训练与生成知道的东西不同</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">扩散：训练与生成知道的东西不同</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">网络学习分布上的恢复信息；生成没有一张预先藏好的目标图。</text>
+<rect x="45" y="180" width="305" height="130" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="221" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">真实样本 x₀</text>
+<text x="59" y="261" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">训练数据</text>
+<rect x="410" y="180" width="305" height="130" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="424" y="221" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">构造带噪 xₜ</text>
+<text x="424" y="261" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">已知 x₀、噪声、阶段</text>
+<rect x="775" y="180" width="305" height="130" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="789" y="221" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">预测噪声</text>
+<text x="789" y="261" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">网络读 xₜ 与阶段</text>
+<rect x="1140" y="180" width="305" height="130" rx="14" fill="#fff2d6" stroke="#69829a" stroke-width="2"/>
+<text x="1154" y="221" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">训练损失</text>
+<text x="1154" y="261" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">与已知噪声比较</text>
+<polyline points="350,245 410,245" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="410,245 398.5914266954251,251.23253200185465 398.5914266954251,238.76746799814535" fill="#69829a"/>
+<polyline points="715,245 775,245" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="775,245 763.5914266954252,251.23253200185465 763.5914266954252,238.76746799814535" fill="#69829a"/>
+<polyline points="1080,245 1140,245" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1140,245 1128.591426695425,251.23253200185465 1128.591426695425,238.76746799814535" fill="#69829a"/>
+<text x="45" y="166" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" fill="#142e45">训练</text>
+<rect x="45" y="430" width="305" height="130" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="471" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">随机噪声 xT</text>
+<text x="59" y="511" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">没有真实目标图</text>
+<rect x="410" y="430" width="305" height="130" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="424" y="471" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">迭代采样</text>
+<text x="424" y="511" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">预测 + 采样公式</text>
+<rect x="775" y="430" width="305" height="130" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="789" y="471" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">数据端潜在</text>
+<text x="789" y="511" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">多步演化的结果</text>
+<rect x="1140" y="430" width="305" height="130" rx="14" fill="#e7f4ed" stroke="#69829a" stroke-width="2"/>
+<text x="1154" y="471" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">解码图片</text>
+<text x="1154" y="511" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">潜在扩散使用解码器</text>
+<polyline points="350,495 410,495" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="410,495 398.5914266954251,501.2325320018546 398.5914266954251,488.7674679981454" fill="#69829a"/>
+<polyline points="715,495 775,495" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="775,495 763.5914266954252,501.2325320018546 763.5914266954252,488.7674679981454" fill="#69829a"/>
+<polyline points="1080,495 1140,495" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1140,495 1128.591426695425,501.2325320018546 1128.591426695425,488.7674679981454" fill="#69829a"/>
+<text x="45" y="411" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="700" fill="#142e45">生成</text>
+<text x="45" y="648" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">生成使用训练后的固定参数；不同初始噪声可以得到不同合理样本。</text>
+<text x="45" y="682" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">网络、预测参数化、噪声日程与采样器必须相互匹配。</text>
+</svg>

@@ -1,0 +1,39 @@
+{
+  "chapters": 60,
+  "complete_chapters": 60,
+  "minimum_body_cjk": 200000,
+  "body_cjk": 218153,
+  "volumes": [
+    {
+      "slug": "01-foundations",
+      "chapters": 10,
+      "body_cjk": 41787
+    },
+    {
+      "slug": "02-networks",
+      "chapters": 10,
+      "body_cjk": 35006
+    },
+    {
+      "slug": "03-language",
+      "chapters": 10,
+      "body_cjk": 36818
+    },
+    {
+      "slug": "04-multimodal",
+      "chapters": 12,
+      "body_cjk": 38636
+    },
+    {
+      "slug": "05-action",
+      "chapters": 10,
+      "body_cjk": 35957
+    },
+    {
+      "slug": "06-capabilities",
+      "chapters": 8,
+      "body_cjk": 29949
+    }
+  ],
+  "source_sha256": "4dbc40f5f5f9bbd7543abcbfb1114d4a1cfacb8ec2a006a20194ce3ef0ee3d0d"
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="630" viewBox="0 0 1500 630" role="img">
+<title>一个 Pre-Norm Transformer 层</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">一个 Pre-Norm Transformer 层</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">序列长度 n 与主干宽度 d 保持一致；不同模块更新同一残差表示。</text>
+<rect x="45" y="250" width="155" height="140" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">X</text>
+<text x="59" y="331" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">n × d</text>
+<rect x="255" y="250" width="155" height="140" rx="14" fill="#f0f3f6" stroke="#69829a" stroke-width="2"/>
+<text x="269" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">Norm</text>
+<text x="269" y="328" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" font-weight="400" fill="#4f6375">按位置归一化</text>
+<rect x="465" y="250" width="215" height="140" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="479" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">Attention</text>
+<text x="479" y="331" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">跨位置汇集</text>
+<rect x="735" y="250" width="155" height="140" rx="14" fill="#e7f4ed" stroke="#69829a" stroke-width="2"/>
+<text x="749" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">+</text>
+<text x="749" y="331" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">得到 U</text>
+<rect x="945" y="250" width="270" height="140" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="959" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">Norm + FFN</text>
+<text x="959" y="331" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">位置内非线性</text>
+<rect x="1270" y="250" width="155" height="140" rx="14" fill="#e7f4ed" stroke="#69829a" stroke-width="2"/>
+<text x="1284" y="291" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">+</text>
+<text x="1284" y="331" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">得到 Y</text>
+<polyline points="200,320 255,320" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="255,320 243.59142669542516,326.2325320018546 243.59142669542516,313.7674679981454" fill="#69829a"/>
+<polyline points="410,320 465,320" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="465,320 453.5914266954251,326.2325320018546 453.5914266954251,313.7674679981454" fill="#69829a"/>
+<polyline points="680,320 735,320" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="735,320 723.5914266954252,326.2325320018546 723.5914266954252,313.7674679981454" fill="#69829a"/>
+<polyline points="890,320 945,320" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="945,320 933.5914266954252,326.2325320018546 933.5914266954252,313.7674679981454" fill="#69829a"/>
+<polyline points="1215,320 1270,320" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1270,320 1258.591426695425,326.2325320018546 1258.591426695425,313.7674679981454" fill="#69829a"/>
+<polyline points="120,250 120,170 810,170 810,250" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="810,250 803.7674679981453,238.59142669542516 816.2325320018547,238.59142669542516" fill="#69829a"/>
+<text x="390" y="152" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#4f6375">保留 X</text>
+<polyline points="810,390 810,460 1345,460 1345,390" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1345,390 1351.2325320018547,401.4085733045749 1338.7674679981453,401.4085733045748" fill="#69829a"/>
+<text x="1040" y="492" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#4f6375">保留 U</text>
+<text x="45" y="563" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">输出投影保证注意力回到 d 维；FFN 内部可扩宽，输出仍回到 d 维。</text>
+</svg>

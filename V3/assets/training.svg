@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="720" viewBox="0 0 1500 720" role="img">
+<title>一次训练：前向、梯度与参数更新</title>
+<rect width="100%" height="100%" fill="white"/>
+<text x="45" y="68" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="38" font-weight="700" fill="#142e45">一次训练：前向、梯度与参数更新</text>
+<text x="45" y="109" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">蓝色：本次数据与中间结果　紫色：可训练参数　黄色：监督与损失</text>
+<rect x="45" y="185" width="210" height="130" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="59" y="226" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">输入 x</text>
+<text x="59" y="266" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">当前样本</text>
+<rect x="340" y="185" width="250" height="130" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="354" y="226" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">模型 fθ</text>
+<text x="354" y="266" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">读取参数计算</text>
+<rect x="675" y="185" width="240" height="130" rx="14" fill="#e9f3ff" stroke="#69829a" stroke-width="2"/>
+<text x="689" y="226" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">预测 ŷ</text>
+<text x="689" y="266" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">本次前向结果</text>
+<rect x="1050" y="185" width="350" height="130" rx="14" fill="#fff2d6" stroke="#69829a" stroke-width="2"/>
+<text x="1064" y="226" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">损失 L(ŷ,y)</text>
+<text x="1064" y="266" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">将预测与目标比较</text>
+<rect x="1050" y="365" width="350" height="105" rx="14" fill="#fff2d6" stroke="#69829a" stroke-width="2"/>
+<text x="1064" y="406" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">训练目标 y</text>
+<text x="1064" y="446" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">来自数据或反馈</text>
+<rect x="340" y="495" width="250" height="120" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="354" y="536" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">参数 θ</text>
+<text x="354" y="576" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">长期保存的权重</text>
+<rect x="690" y="495" width="270" height="120" rx="14" fill="#f0eafb" stroke="#69829a" stroke-width="2"/>
+<text x="704" y="536" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#142e45">优化器</text>
+<text x="704" y="576" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#4f6375">依据梯度更新 θ</text>
+<polyline points="255,250 340,250" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="340,250 328.5914266954251,256.2325320018546 328.5914266954251,243.76746799814535" fill="#69829a"/>
+<polyline points="590,250 675,250" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="675,250 663.5914266954252,256.2325320018546 663.5914266954252,243.76746799814535" fill="#69829a"/>
+<polyline points="915,250 1050,250" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1050,250 1038.591426695425,256.2325320018546 1038.591426695425,243.76746799814535" fill="#69829a"/>
+<polyline points="1225,365 1225,315" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="1225,315 1231.2325320018547,326.4085733045749 1218.7674679981453,326.4085733045748" fill="#69829a"/>
+<polyline points="1225,315 1225,550 960,550" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="960,550 971.4085733045748,543.7674679981453 971.4085733045748,556.2325320018547" fill="#69829a"/>
+<polyline points="690,550 590,550" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="590,550 601.4085733045748,543.7674679981453 601.4085733045748,556.2325320018547" fill="#69829a"/>
+<polyline points="465,495 465,315" fill="none" stroke="#69829a" stroke-width="3"/>
+<polygon points="465,315 471.2325320018546,326.4085733045749 458.7674679981454,326.4085733045748" fill="#69829a"/>
+<text x="980" y="532" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#4f6375">反向传播得到梯度</text>
+<text x="45" y="673" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#4f6375">常规推理固定参数；训练才会执行损失、反向传播与参数更新。</text>
+</svg>
