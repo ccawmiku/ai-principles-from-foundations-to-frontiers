@@ -2,7 +2,7 @@
   "scope": "Worked numerical examples, not a proof of all prose or methods",
   "passed": 62,
   "total": 62,
-  "source_sha256": "933f97b953057ca5d9afe67813f341c465b7b541867c6079f23660123acb8572",
+  "source_sha256": "f40c9e288ced4177770013202ef0273f636a3adee1902ebd81748fa22de51c74",
   "checks": [
     {
       "chapter": 2,

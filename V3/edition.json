@@ -2,7 +2,7 @@
   "chapters": 60,
   "complete_chapters": 60,
   "minimum_body_cjk": 200000,
-  "body_cjk": 201621,
+  "body_cjk": 205219,
   "volumes": [
     {
       "slug": "01-foundations",
@@ -22,7 +22,7 @@
     {
       "slug": "04-multimodal",
       "chapters": 12,
-      "body_cjk": 38636
+      "body_cjk": 42234
     },
     {
       "slug": "05-action",
@@ -35,5 +35,5 @@
       "body_cjk": 29949
     }
   ],
-  "source_sha256": "933f97b953057ca5d9afe67813f341c465b7b541867c6079f23660123acb8572"
+  "source_sha256": "f40c9e288ced4177770013202ef0273f636a3adee1902ebd81748fa22de51c74"
 }
