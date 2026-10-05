@@ -6,7 +6,7 @@
 
 数值核算覆盖 62 项；最终完整性与构建记录见 sources/integrity-audit.json、sources/numerical-audit.json、sources/build-stability.json 和 edition.json。构建只操作 V2。
 
-GitHub 可读，内容写入 403，按授权保存本地 Git。阅读入口为 README.md 和 BOOK.md。本轮没有等待目录或样稿确认的剩余任务。
+2026-10-05 已解决 GitHub 写入 403：Codex GitHub App 仓库授权生效，完整 V2 提交 `73818dd` 已推送到远端 main。阅读入口为 README.md 和 BOOK.md。本轮没有等待目录或样稿确认的剩余任务。
 
 原版基线提交：66ab669a777830a276b57d9643222739912b3619。
 
